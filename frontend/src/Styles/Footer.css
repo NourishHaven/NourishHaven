@@ -1,0 +1,21 @@
+.Signup-text{
+    font-size: 1rem;
+}
+.mainFooter{
+    background-color: var(--brand-color);
+}
+.subscribe{
+    width: 15rem;
+    border-radius: 5px 0 0 5px;
+}
+.btnSub{
+    background-color: var(--success-color);
+    color: var(--pry-text);
+    border-radius: 0 5px 5px 0;
+    font-weight: 500;
+    transition: 150ms all ease-in-out;
+}
+.btnSub:hover{
+    background-color: var(--sec-color);
+
+}

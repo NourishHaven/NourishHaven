@@ -25,7 +25,7 @@
   --sec-hover: #bbbbbb;
 }
 
-h1, h2, h3, h4, h5, li{
+h1, h2, h3, h4, h5, li, form{
   font-family: 'Montserrat', sans-serif;
 }
 p{
