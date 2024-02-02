@@ -6,7 +6,7 @@ const ChooseUs = () => {
     <div className="container-fluid mx-o chooseSection">
       <div className="container py-5">
         <div className="px-4 py-5 text-center">
-          <h3 className="display-5 fw-bold text-body-emphasis chooseHead">
+          <h3 className="display-5 fw-bold fs-1 text-body-emphasis chooseHead">
             Why <span className="span-txt">Choose</span> Us?
           </h3>
           <div className="">

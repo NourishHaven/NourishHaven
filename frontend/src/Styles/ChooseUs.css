@@ -25,14 +25,14 @@
 }
 .CardText-pry {
   text-align: left;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   line-height: 19px;
   color: var(--sec-text);
 }
 .CardText-tet {
   text-align: left;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   line-height: 19px;
   color: var(--tertiary-text);

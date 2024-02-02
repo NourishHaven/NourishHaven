@@ -1,0 +1,11 @@
+.leadText {
+  font-size: 1rem;
+  color: var(--pry-color2);
+  font-weight: 500;
+}
+.TrendHead {
+  color: var(--pry-text);
+}
+.span-txt {
+  color: var(--success-color);
+}

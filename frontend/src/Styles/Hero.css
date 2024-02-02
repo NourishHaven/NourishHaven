@@ -23,5 +23,12 @@
 .btn-Explore {
     background-color: var(--brand-color);
     color: #fff;
+    font-weight: 500;
+    transition: all 150ms ease-in-out;
     font-family: 'Montserrat', sans-serif;
+}
+.btn-Explore:hover {
+  background-color: var(--success-color);
+  color: var(--pry-text);
+
 }
