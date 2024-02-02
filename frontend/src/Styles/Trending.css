@@ -9,3 +9,7 @@
 .span-txt {
   color: var(--success-color);
 }
+.Card_image{
+    width: 10rem;
+    height: 10rem;
+}

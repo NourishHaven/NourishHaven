@@ -10,7 +10,7 @@ const ChooseUs = () => {
             Why <span className="span-txt">Choose</span> Us?
           </h3>
           <div className="">
-            <p className="leadText mb-4">
+            <p className="leadText text-center mb-4">
               Discover how our commitment to holistic wellness transforms your
               shopping experience into a journey of health and vitality.
             </p>
