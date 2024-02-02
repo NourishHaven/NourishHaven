@@ -6,8 +6,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 const Footer = () => {
   return (
-    <div className="mainFooter fixed-bottom">
-      <div className="container">
+    <div className="mainFooter py-0 my-0">
+      <div className="container py-3 mb-0">
         <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">
           <div className="col mb-3">
             <h5 className="Signup-text text-white">

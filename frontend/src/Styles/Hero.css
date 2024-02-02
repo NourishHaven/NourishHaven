@@ -1,0 +1,27 @@
+.heroImg{
+    min-height: 100%;
+    height: 100%;
+   background-image: url('../assets/hero.jpg');
+    background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+.sub-text{
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--pry-color2);
+}
+.span-txt{
+    color: var(--success-color);
+}
+
+.leadText{
+    font-size: 1.2rem;
+    color: var(--pry-text);
+    font-weight: 500;
+}
+.btn-Explore {
+    background-color: var(--brand-color);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
