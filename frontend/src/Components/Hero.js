@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="container-fluid heroImg  m-0 py-2">
       <div className="container py-5">
         <div className="row align-items-center g-5 py-5 mb-5">
-          <div className="col-md-6 mb-5">
+          <div className="col-md-6 col-xs-12 mb-5">
             <h5 className="sub-text mt-5">100% Genuine Products</h5>
             <h1 className="display-5 fw-bold text-body-emphasis w-75 lh-5 mb-3 mt-2">
               Tasty & Healthy <span className="span-txt">Organic</span> Food
