@@ -1,9 +1,9 @@
 const express = require("express");
 const mongoose = require("mongoose");
-require("dotenv").config();
+// require("dotenv").config();
 
-const productRoutes = require("./routes/nourish_Haven");
-const userRoutes = require("./routes/users");
+const productRoutes = require("./routes/product");
+const userRoutes = require("./routes/user");
 
 // Express App
 const app = express();
@@ -20,14 +20,26 @@ app.use("/api/product", productRoutes);
 app.use("/api/user", userRoutes);
 
 // CONNECT TO DB
+
 mongoose
-  .connect(process.env.MONGODB_URL)
+  .connect('mongodb+srv://Nourish-Haven:T8GsSqbkZQ7I5pNu@cluster0.gslawcc.mongodb.net/test?retryWrites=true&w=majority')
   .then(() => {
     // LISTEN FOR REQUESTS
-    app.listen(process.env.PORT, () => {
+    app.listen(4000, () => {
       console.log("Listing on port 4000!!!");
     });
   })
   .catch((error) => {
     console.log(error);
   });
+// mongoose
+//   .connect(process.env.MONGODB_URL)
+//   .then(() => {
+//     // LISTEN FOR REQUESTS
+//     app.listen(process.env.PORT, () => {
+//       console.log("Listing on port 4000!!!");
+//     });
+//   })
+//   .catch((error) => {
+//     console.log(error);
+//   });
