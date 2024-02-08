@@ -2,7 +2,7 @@ const moongoose = require('mongoose');
 // const brcybit = require('brcybit');
 // const validator = require('validator');
 
-const productScema = new moongoose.Schema(
+const productSchema = new moongoose.Schema(
     {
         name: {
             type: String,
@@ -27,3 +27,5 @@ const productScema = new moongoose.Schema(
 
 
     })
+
+    module.exports = productSchema

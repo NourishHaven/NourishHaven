@@ -1,5 +1,5 @@
 const mongoose = require("mongoose")
-const bcrybit = require("bcrybit")
+// const bcrybit = require("bcrybit")
 const validator = require("validator")
 
 const userSchema = new mongoose.Schema(
@@ -24,12 +24,14 @@ const userSchema = new mongoose.Schema(
         password: {
             type: String,
             required:true,
-            validate (value) {
-                if (this.password) {
-                    return validator.islenght (value, 8) && / A-Z /.test(value);
-                }
-            }
+            // validate (value) {
+            //     if (this.password) {
+            //         return validator.islenght (value, 8) && / A-Z /.test(value);
+            //     }
+            // }
         }
     }
 )
+
+module.exports = mongoose.model('User', userSchema)
     

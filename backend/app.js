@@ -1,5 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const bodyParser = require('body-parser')
 // require("dotenv").config();
 
 const productRoutes = require("./routes/product");
@@ -9,6 +10,7 @@ const userRoutes = require("./routes/user");
 const app = express();
 
 // Middleware
+app.use(bodyParser.json()) //application/json
 app.use(express.json());
 app.use((req, res, next) => {
   console.log(req.path, req.method);
